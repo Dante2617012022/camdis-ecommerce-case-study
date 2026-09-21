@@ -1,6 +1,10 @@
 # E-commerce Camdis — identidad y seguridad de aplicaciones
 
-> Repositorio documental público de Dante Gabriel Balbuena Atar. Presenta decisiones y evidencia sanitizada; no contiene el código ni la configuración del sistema operativo.
+> Caso público de Dante Gabriel Balbuena Atar, con una muestra de autorización adaptada y pruebas ejecutables. El sistema completo y su configuración permanecen privados.
+
+## Código para evaluar
+
+La [muestra de autorización y política de sesión](sample/README.md) incluye código extraído y adaptado del proyecto, pruebas de rechazos y casos permitidos, e instrucciones para ejecutarlas con Node.js sin instalar dependencias. Distingue los controles probados de las dependencias simuladas.
 
 ## Resumen
 
@@ -178,3 +182,4 @@ El proyecto demuestra cómo integrar controles de seguridad desde la arquitectur
 
 
 [Portfolio profesional](https://dante2617012022.github.io/portfolio-web/) · [Política de divulgación](https://github.com/Dante2617012022/portfolio-web/blob/main/docs/PUBLIC_DISCLOSURE_POLICY.md)
+
