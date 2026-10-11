@@ -2,6 +2,15 @@
 
 > Caso público de Dante Gabriel Balbuena Atar, con una muestra de autorización adaptada y pruebas ejecutables. El sistema completo y su configuración permanecen privados.
 
+## Lectura rápida y aporte
+
+Caso complementario de identidad y autorización para mi perfil SOC junior. Mi aporte incluye requisitos, pruebas, diagnóstico, documentación y validación de controles; el desarrollo cuenta con asistencia de IA.
+
+- **Revisar primero:** [muestra de autorización y sesiones](sample/README.md), con 15 pruebas unitarias.
+- **Qué permite comprobar:** rechazo sin sesión, roles insuficientes, separación de contextos y validación CSRF.
+- **Qué no prueba la muestra:** el resolvedor de autenticación está simulado. No valida por sí sola Keycloak, MFA, firma de tokens ni el sistema completo.
+- **Estado:** piloto técnico sin pagos reales. Para evidencia principal de monitoreo y triage, ver [Mini-SOC](https://github.com/Dante2617012022/mini-soc-lab).
+
 ## Código para evaluar
 
 La [muestra de autorización y política de sesión](sample/README.md) incluye código extraído y adaptado del proyecto, pruebas de rechazos y casos permitidos, e instrucciones para ejecutarlas con Node.js sin instalar dependencias. Distingue los controles probados de las dependencias simuladas.
