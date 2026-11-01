@@ -4,7 +4,7 @@
 
 ## Lectura rápida y aporte
 
-Caso complementario de identidad y autorización para mi perfil SOC junior. Mi aporte incluye requisitos, pruebas, diagnóstico, documentación y validación de controles; el desarrollo cuenta con asistencia de IA.
+Proyecto aplicado de e-commerce vinculado a mi trabajo actual en Camdis. Mi aporte incluye requisitos, desarrollo, pruebas, diagnóstico, documentación y validación de controles; la implementación cuenta con asistencia de IA. Esta muestra permite evaluar desarrollo junior, identidad, autorización y prácticas DevSecOps, con el alcance de un piloto técnico.
 
 - **Revisar primero:** [muestra de autorización y sesiones](sample/README.md), con 15 pruebas unitarias.
 - **Qué permite comprobar:** rechazo sin sesión, roles insuficientes, separación de contextos y validación CSRF.
